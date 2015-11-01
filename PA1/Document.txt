@@ -1,0 +1,18 @@
+Document of PA1
+
+此份作業使用python實作
+附帶檔案有：
+  28.txt			#作業檔案
+  PA1.py			#執行PA1要求的檔案，請使用這個來驗證作業
+  ir_tools.py		#將功能寫成module放入此檔案，請將他與PA1.py放一起
+  porter.py 		#Porter's algorithm，ir_tools.py使用，請將此檔案與ir_tools.py放一起
+  stopwordlist.txt	#stopword 的列表，ir_tools.py使用，請將此檔案與ir_tools.py放一起
+  terms.txt			#執行PA1.py在28.txt的結果檔案
+
+使用方式：
+  首先確保機器有python 2.7的環境(注意是python2.7，不是python 3)
+
+  執行方式為:
+  	python PA1.py <document_file> <result_file>
+
+  <document_file>為要用來作extract terms的文字檔案，<result_file>是結果存放的檔案名稱，這兩個參數少一個將會導致程式失敗運行
